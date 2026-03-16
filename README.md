@@ -54,11 +54,14 @@ Proteins are the essential drivers of biological processes. At the molecular lev
 
 If you use this repository, please cite the following related [paper]():
 ```bibtex
-@article{suyunu2025evobpe,
-  title={evoBPE: Evolutionary Protein Sequence Tokenization},
-  author={Suyunu, Burak and Dolu, {\"O}zdeniz and {\"O}zg{\"u}r, Arzucan},
-  journal={arXiv preprint arXiv:2503.08838},
-  year={2025}
+@misc{suyunu2025pumadiscoveryproteinunits,
+      title={PUMA: Discovery of Protein Units via Mutation-Aware Merging}, 
+      author={Burak Suyunu and Özdeniz Dolu and Ibukunoluwa Abigail Olaosebikan and Hacer Karatas Bristow and Arzucan Özgür},
+      year={2025},
+      eprint={2503.08838},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.08838}, 
 }
 ```
 
