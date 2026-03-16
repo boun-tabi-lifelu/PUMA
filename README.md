@@ -2,7 +2,7 @@
 
 </br>
 
-<center><img  src="figures/PUMA_summary.svg"  alt="PUMA Summary"  width="1000px"></center>
+<center><img  src="figures/PUMA_summary.png"  alt="PUMA Summary"  width="1000px"></center>
 
 </br>
 
