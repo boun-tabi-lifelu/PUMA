@@ -2,11 +2,7 @@
 
 </br>
 
-<center><img  src="figures/PUMA_flow.svg"  alt="PUMA Flow"  width="1000px"></center>
-
-</br></br></br>
-
-<center><img  src="figures/PUMA_iteration.svg"  alt="PUMA Iteration"  width="1000px"></center>
+<center><img  src="figures/PUMA_summary.svg"  alt="PUMA Summary"  width="1000px"></center>
 
 </br>
 
