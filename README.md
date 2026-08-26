@@ -18,7 +18,6 @@ We provide codes and notebooks to reproduce our work.
   ### Related to PUMA result replication
   - **[Prog/result_files](Prog/result_files):** This folder contains precalculated results that have been used in figures.
   - **[Prog/multiprocess_clinvar_analysis.py](Prog/multiprocess_clinvar_analysis.py):** The main script to replicate ProteinGym experiments. (ClinVar)
-  - **[Prog/multiprocess_dms_analysis.py](Prog/multiprocess_dms_analysis.py):** The main script to replicate ProteinGym experiments. (DMS)
   - **[Prog/multiprocess_general_stats.py](Prog/multiprocess_general_stats.py):** The main script to replicate "Properties of PUMA Vocabularies" section.
   - **[Prog/dataset_schema.ipynb](Prog/dataset_schema.ipynb)** covers where we obtained all the data and how we processed them to be utilized for our study.
   - **[Prog/prelim_genealogical.ipynb](Prog/prelim_genealogical.ipynb):** PUMA Properties - Main Notebook - Analysis of Family Structures
@@ -26,13 +25,15 @@ We provide codes and notebooks to reproduce our work.
   - **[Prog/prelim_vocab_identity.ipynb](Prog/prelim_vocab_identity.ipynb):** PUMA Properties - Main Notebook - Impact of Substitution Matrices
   - **[Prog/prelim_shared_unit.ipynb](Prog/prelim_shared_unit.ipynb):** PUMA Properties - Main Notebook - Comparison with Frequency-Based Segmentation
   - **[Prog/experiment_clinvar.ipynb](Prog/experiment_clinvar.ipynb):** Experiments - Main Notebook - PUMA Families Favor Benign and Higher Scoring Mutations (ClinVar)
-  - **[Prog/experiment_dms.ipynb](Prog/experiment_dms.ipynb):** Experiments - Main Notebook - PUMA Families Favor Benign and Higher Scoring Mutations (DMS)
-  - **[Prog/experiment_esm_mutation_vs_alternative.ipynb](Prog/experiment_esm_mutation_vs_alternative.ipynb):** Experiments - Main Notebook - Protein Language Models Contextually Prefer PUMA Siblings
-    - **[Prog/experiment_esm_functions.py](Prog/experiment_esm_functions.py):** Experiments - Helper Functions - Protein Language Models Contextually Prefer PUMA Siblings
   - **[Prog/experiment_go_topic_model.ipynb](Prog/experiment_go_topic_model.ipynb):** Experiments - Main Notebook - PUMA Genealogy Improves Functional Representation via Topic Modeling
-    - **[Prog/experiment_go_functions.py](Prog/experiment_go_functions.py):** Experiments - Helper Functions - PUMA Genealogy Improves Functional Representation via Topic Modeling
-- **[RSRC/vocabs](RSRC/vocabs)** contains internal and huggingface versions of BPE and PUMA vocabulary files for the vocabulary size of 6400.
-- **[RSRC/dataset](RSRC/dataset)** contains filtered UniRef50 human taxanomy protein dataset used in training. Codes that create fasta files can be found in [Prog/dataset_schema.ipynb](Prog/dataset_schema.ipynb) notebook's 'Generate Fasta Files' section.
+  - **[Prog/experiment_go_functions.py](Prog/experiment_go_functions.py):** Experiments - Helper Functions - PUMA Genealogy Improves Functional Representation via Topic Modeling
+  ### Old Experiments (not included in the paper)
+  - **[Prog/old_experiments/old_multiprocess_dms_analysis.py](Prog/multiprocess_dms_analysis.py):** The main script to replicate ProteinGym experiments. (DMS)
+  - **[Prog/old_experiments/old_experiment_dms.ipynb](Prog/experiment_dms.ipynb):** Experiments - Main Notebook - PUMA Families Favor Benign and Higher Scoring Mutations (DMS)
+  - **[Prog/old_experiments/old_experiment_esm_mutation_vs_alternative.ipynb](Prog/experiment_esm_mutation_vs_alternative.ipynb):** Experiments - Main Notebook - Protein Language Models Contextually Prefer PUMA Siblings
+  - **[Prog/old_experiments/old_experiment_esm_functions.py](Prog/experiment_esm_functions.py):** Experiments - Helper Functions - Protein Language Models Contextually Prefer PUMA Siblings
+- **[RSRC/vocabs](RSRC/vocabs)** contains internal and HuggingFace json versions of BPE and PUMA vocabulary files for the vocabulary size of 6400. (Link for all models is given above.)
+- **[RSRC/dataset](RSRC/dataset)** contains filtered UniRef50 human taxonomy protein dataset used in training. Codes that create fasta files can be found in [Prog/dataset_schema.ipynb](Prog/dataset_schema.ipynb) notebook's 'Generate Fasta Files' section.
   - **[RSRC/dataset/uniref_50.fasta](RSRC/dataset/uniref_50.fasta):** Standard versions of the proteins.
     ```
     format:
