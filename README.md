@@ -27,6 +27,8 @@ We provide codes and notebooks to reproduce our work.
   - **[Prog/experiment_clinvar.ipynb](Prog/experiment_clinvar.ipynb):** Experiments - Main Notebook - PUMA Families Favor Benign and Higher Scoring Mutations (ClinVar)
   - **[Prog/experiment_go_topic_model.ipynb](Prog/experiment_go_topic_model.ipynb):** Experiments - Main Notebook - PUMA Genealogy Improves Functional Representation via Topic Modeling
   - **[Prog/experiment_go_functions.py](Prog/experiment_go_functions.py):** Experiments - Helper Functions - PUMA Genealogy Improves Functional Representation via Topic Modeling
+  ### Related to Protein Language Model Experiments
+  - **[PULM Repository](https://github.com/boun-tabi-lifelu/PULM)**: Language modeling experiments have been conducted on a different repository.
   ### Old Experiments (not included in the paper)
   - **[Prog/old_experiments/old_multiprocess_dms_analysis.py](Prog/multiprocess_dms_analysis.py):** The main script to replicate ProteinGym experiments. (DMS)
   - **[Prog/old_experiments/old_experiment_dms.ipynb](Prog/experiment_dms.ipynb):** Experiments - Main Notebook - PUMA Families Favor Benign and Higher Scoring Mutations (DMS)
